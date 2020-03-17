@@ -1,0 +1,11 @@
+{ 
+  "domain": "mytestdomain.com",
+  "hostname": "landing",
+  "customer": "customername",
+  "sendgrid_server": "smtp.sendgrid.com",
+  "sendgrid_user": "sendgriduser@domain.com",
+  "sendgrid_pass": "",
+  "support_email": "support@domain.com",
+  "azure_client_id": "",
+  "azure_client_secret": ""
+}
