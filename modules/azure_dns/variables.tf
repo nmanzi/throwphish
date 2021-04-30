@@ -22,3 +22,11 @@ variable "customer" {
   type = "string"
   description = "Customer for which this campaign is being run"
 }
+
+variable "azure_client_id" {
+  type = "string"
+}
+
+variable "azure_client_secret" {
+  type = "string"
+}

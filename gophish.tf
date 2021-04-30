@@ -35,6 +35,8 @@ module "create_dns" {
   hostname = "${var.hostname}"
   ip_address = "${module.create_networking.public_ip}"
   customer = "${var.customer}"
+  azure_client_id = "${var.azure_client_id}"
+  azure_client_secret = "${var.azure_client_secret}"
 }
 
 // Create ACME Certificate for domain
