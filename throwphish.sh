@@ -35,9 +35,11 @@ function usage() {
   echo "            Returns a list of DNS Nameservers to be applied at the"
   echo "            domain registrar prior to running 'createvm'"
   echo
-  echo "createvm -  Creates a LetsEncrypt certificate and the GoPhish VM"
+  echo "createvm  - Creates a LetsEncrypt certificate and the GoPhish VM"
   echo
-  echo "destroy -   Destroys all Azure resources created for the customer"
+  echo "destroy   - Destroys all Azure resources created for the customer"
+  echo
+  echo "ssh       - Connect to the GoPhish VM via SSH"
 }
 
 # Ensure script console output is separated by blank line at top and bottom to improve readability
